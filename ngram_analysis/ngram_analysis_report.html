@@ -1,0 +1,136 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Analiza N-gramelor în Discursul Politic</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                color: #333;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            h1, h2, h3 {
+                color: #2c3e50;
+                margin-top: 1.5em;
+            }
+            .container {
+                margin-bottom: 40px;
+            }
+            .visualization {
+                margin: 20px 0;
+                text-align: center;
+            }
+            .visualization img {
+                max-width: 100%;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            }
+            .highlight {
+                background-color: #f8f9fa;
+                padding: 15px;
+                border-left: 4px solid #3498db;
+                margin: 20px 0;
+            }
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .col {
+                flex: 1;
+                min-width: 300px;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Analiza N-gramelor în Discursul Politic</h1>
+
+        <div class="highlight">
+            <p>Această analiză identifică expresii și fraze comune (n-grame) în discursul politic de pe Reddit. 
+            N-gramele oferă context mai bogat decât cuvintele individuale și ne ajută să descoperim expresii caracteristice
+            folosite în conversațiile politice.</p>
+        </div>
+    
+        <div class="container">
+            <h2>Analiza 2-gramelor</h2>
+
+            <div class="row">
+                <div class="col">
+                    <h3>Top 2-grame</h3>
+                    <p>Cele mai frecvente expresii formate din 2 cuvinte:</p>
+                    <div class="visualization">
+                        <img src="top_2grams.png" alt="Top 2-grame">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>WordCloud pentru 2-grame</h3>
+                    <div class="visualization">
+                        <img src="wordcloud_2grams.png" alt="WordCloud 2-grame">
+                    </div>
+                </div>
+            </div>
+        
+            <h3>2-grame pe Subreddituri</h3>
+            <p>Expresii caracteristice pentru diferite comunități:</p>
+            <div class="visualization">
+                <img src="subreddit_top_2grams.png" alt="2-grame pe subreddituri">
+            </div>
+            </div>
+        <div class="container">
+            <h2>Analiza 3-gramelor</h2>
+
+            <div class="row">
+                <div class="col">
+                    <h3>Top 3-grame</h3>
+                    <p>Cele mai frecvente expresii formate din 3 cuvinte:</p>
+                    <div class="visualization">
+                        <img src="top_3grams.png" alt="Top 3-grame">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h3>WordCloud pentru 3-grame</h3>
+                    <div class="visualization">
+                        <img src="wordcloud_3grams.png" alt="WordCloud 3-grame">
+                    </div>
+                </div>
+            </div>
+        
+            <h3>3-grame pe Subreddituri</h3>
+            <p>Expresii caracteristice pentru diferite comunități:</p>
+            <div class="visualization">
+                <img src="subreddit_top_3grams.png" alt="3-grame pe subreddituri">
+            </div>
+            </div>
+        <div class="container">
+            <h2>Interpretarea Rezultatelor</h2>
+
+            <h3>Ce ne spun n-gramele despre discursul politic?</h3>
+            <p>N-gramele oferă insight-uri valoroase despre:</p>
+            <ul>
+                <li><strong>Expresii specifice partidelor</strong> - Fiecare orientare politică folosește fraze distinctive</li>
+                <li><strong>Talking points</strong> - Subiectele și argumentele frecvent repetate în discuțiile politice</li>
+                <li><strong>Asocieri semantice</strong> - Cum sunt construite argumentele prin asocierea anumitor cuvinte</li>
+                <li><strong>Referințe culturale și istorice</strong> - Expresii care fac referire la evenimente sau concepte politice</li>
+            </ul>
+
+            <h3>Perspective comparative</h3>
+            <p>Diferențele între n-gramele folosite de diferite comunități (subreddituri) reflectă:</p>
+            <ul>
+                <li>Variații în limbaj și retorică între orientări politice diferite</li>
+                <li>Subiecte prioritare pentru fiecare comunitate</li>
+                <li>Referințe diferite la figuri politice și evenimente</li>
+            </ul>
+
+            <p>Aceste pattern-uri lingvistice oferă o fereastră spre modul în care diferite grupuri politice
+            își construiesc mesajele și argumentele.</p>
+        </div>
+    </body>
+    </html>
+    

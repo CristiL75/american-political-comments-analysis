@@ -1,0 +1,5 @@
+Topic 0: 0.010*"israel" + 0.009*"ukraine" + 0.008*"russia" + 0.007*"said" + 0.007*"hamas"
+Topic 1: 0.009*"https" + 0.005*"sanders" + 0.005*"trump" + 0.004*"would" + 0.004*"one"
+Topic 2: 0.014*"people" + 0.009*"like" + 0.007*"would" + 0.006*"party" + 0.006*"think"
+Topic 3: 0.005*"trump" + 0.005*"new" + 0.005*"page" + 0.005*"media" + 0.005*"epstein"
+Topic 4: 0.033*"trump" + 0.025*"https" + 0.013*"biden" + 0.010*"president" + 0.007*"said"
